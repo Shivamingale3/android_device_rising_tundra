@@ -30,3 +30,19 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := motorola/tundra_g/tundra:11/T1SJS33.117-30-3-8/bf62b:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Build Type
+RISING_BUILDTYPE := UNOFFICIAL
+
+# Gapps Config
+WITH_GMS := true
+TARGET_GAPPS_ARCH := arm64
+
+# Maintainer
+RISING_MAINTAINER := Shivam_Ingale
+
+# UDFPS
+TARGET_HAS_UDFPS := true
