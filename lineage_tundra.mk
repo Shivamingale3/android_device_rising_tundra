@@ -39,6 +39,7 @@ RISING_BUILDTYPE := UNOFFICIAL
 
 # Gapps Config
 WITH_GMS := true
+TARGET_CORE_GMS := true
 TARGET_GAPPS_ARCH := arm64
 
 # Maintainer
